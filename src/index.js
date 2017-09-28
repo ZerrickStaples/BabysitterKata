@@ -8,6 +8,7 @@ export function startTimeRate (startTime, bedTime) {
     return startTimeHours * 12;
 }
 
-export function bedTimeRate () {
-    return 8;
+export function bedTimeRate (bedTime, midnight) {
+    var bedTimeHours = (midnight - bedTime)
+    return bedTimeHours * 8;
 }
