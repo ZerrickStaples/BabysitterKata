@@ -15,5 +15,8 @@ describe("Babysitter Kata", () => {
     it("Calculate $12/hour for multiple hours", () => {
         expect(startTimeRate(5, 8)).to.equal(36);
     })
+    it("Limit start time to 5pm", () => {
+        expect(startTimeRate(4, 6)).to.equal(12);
+    })
 })
 
