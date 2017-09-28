@@ -9,5 +9,5 @@ export function startTimeRate (startTime, bedTime) {
 }
 
 export function bedTimeRate () {
-    return 0;
+    return 8;
 }
