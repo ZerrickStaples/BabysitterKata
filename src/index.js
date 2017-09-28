@@ -1,3 +1,4 @@
-export function startTime () {
-    return 12;
+export function startTimeRate (startTime, bedTime) {
+    var startTimeHours = (bedTime - startTime)
+    return startTimeHours * 12;
 }
