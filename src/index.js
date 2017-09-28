@@ -1,3 +1,3 @@
 export function startTime () {
-    return 0;
+    return 12;
 }
